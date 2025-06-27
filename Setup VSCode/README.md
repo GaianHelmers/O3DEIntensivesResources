@@ -3,16 +3,16 @@
 ## VSCode Settings
 
 ### Prepare Files
-Find and Replace "< Project Folder Name >" with your Workspace Project Folder Name. (ex. Intensives2025)
-Find and Replace "< Path to 3rd Party Gems >" with the path to your 3rd Party Gems. (ex. C:/Users/you/.o3de/3rdParty)
-Find and Replace "< EngineSourceFolderName >" with your Workspace Engine Source Folder Name. (ex. O3DEEngine)
+Find and Replace `< Project Folder Name >` with your Workspace Project Folder Name. (ex. Intensives2025)
+Find and Replace `< Path to 3rd Party Gems >` with the path to your 3rd Party Gems. (ex. C:/Users/you/.o3de/3rdParty)
+Find and Replace `< EngineSourceFolderName >` with your Workspace Engine Source Folder Name. (ex. O3DEEngine)
 
 #### Project Settings Files
 - In settings.json select your number of Parallel Jobs
-- In launch.json fill in < Full Path To Project Editor.exe > with the path to your built Editor.exe.
+- In launch.json fill in `< Full Path To Project Editor.exe >` with the path to your built Editor.exe.
 
 #### VSCode Setting Files
-- In settings.json fill in < Full Path to build/n_cc compilecommands.json > with the path to your exported ninja_compilecommands.
+- In settings.json fill in `< Full Path to build/n_cc compilecommands.json >` with the path to your exported ninja_compilecommands.
 
 ### Add Files to VSCode
 Add the Project Settings files, setup, launch, and tasks, to your project/.vscode folder.
