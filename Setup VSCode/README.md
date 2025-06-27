@@ -3,11 +3,9 @@
 ## VSCode Settings
 
 ### Prepare Files
-Find and Replace `< Project Folder Name >` with your Workspace Project Folder Name. (ex. Intensives2025)
-
-Find and Replace `< Path to 3rd Party Gems >` with the path to your 3rd Party Gems. (ex. C:/Users/you/.o3de/3rdParty)
-
-Find and Replace `< EngineSourceFolderName >` with your Workspace Engine Source Folder Name. (ex. O3DEEngine)
+- Find and Replace `< Project Folder Name >` with your Workspace Project Folder Name. (ex. Intensives2025)
+- Find and Replace `< Path to 3rd Party Gems >` with the path to your 3rd Party Gems. (ex. C:/Users/you/.o3de/3rdParty)
+- Find and Replace `< EngineSourceFolderName >` with your Workspace Engine Source Folder Name. (ex. O3DEEngine)
 
 
 #### Project Settings Files
