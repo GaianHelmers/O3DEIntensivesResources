@@ -4,8 +4,11 @@
 
 ### Prepare Files
 Find and Replace `< Project Folder Name >` with your Workspace Project Folder Name. (ex. Intensives2025)
+
 Find and Replace `< Path to 3rd Party Gems >` with the path to your 3rd Party Gems. (ex. C:/Users/you/.o3de/3rdParty)
+
 Find and Replace `< EngineSourceFolderName >` with your Workspace Engine Source Folder Name. (ex. O3DEEngine)
+
 
 #### Project Settings Files
 - In settings.json select your number of Parallel Jobs
@@ -16,6 +19,7 @@ Find and Replace `< EngineSourceFolderName >` with your Workspace Engine Source 
 
 ### Add Files to VSCode
 Add the Project Settings files, setup, launch, and tasks, to your project/.vscode folder.
+
 Copy and Paste the VSCode Settings files, settings, and keybinding, into your files.
 - Settings can be found by:
    - Select the Gear Icon in the bottom left corner.
@@ -39,6 +43,7 @@ Right click the .bat and select "Edit".
 
 ### Project Folder .bats
 Add "z_build_project_editor_profile.bat" to your Project Folder.
+
 Add "z_create_ninja_buildcommands.bat" to your Project Folder.
 
 Right click the "z_create_ninja_buildcommands.bat" and select "Edit".
@@ -54,10 +59,15 @@ Right click the "z_create_ninja_buildcommands.bat" and select "Edit".
 
 ### Documentation
 [Setting up O3DE from GitHub](https://www.docs.o3de.org/docs/welcome-guide/setup/setup-from-github/)
+
 [Building for Windows](https://www.docs.o3de.org/docs/welcome-guide/setup/setup-from-github/building-windows/)
+
 [Using VSCode to build O3DE](https://github.com/o3de/o3de/wiki/Using-VSCode-to-build-O3DE#windows)
+
 ["VS Code C++ code autocomplete and navigation" by rzDmyth](https://www.youtube.com/watch?v=-_RRuanDwCQ)
+
 ["O3DE Points Of Interest List" by mythrz](https://github.com/mythrz/O3DE_PointsOfInterestList/tree/main)
+
 
 ### O3DE Discord
 [Discord](https://discord.com/invite/o3de)
