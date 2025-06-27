@@ -1,0 +1,34 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder:< Project Folder Name >}/build/windows",
+    "cmake.parallelJobs": 16,
+    "cmake.buildBeforeRun": false,
+    "cmake.exportCompileCommandsFile": false,
+    "accessibility.verbosity.terminal": true,
+    "terminal.integrated.cwd": "",
+    "cmake.configureSettings": {
+        "LY_3RDPARTY_PATH": "< Path to 3rd Party Gems >"
+    },
+    "cmake.defaultVariants": {
+        "buildType": {
+            "default": "profile",
+            "description": "The build type.",
+            "choices": {
+                "debug": {
+                    "short": "Debug",
+                    "long": "Disable optimizations - include debug information.",
+                    "buildType": "Debug"
+                },
+                "release": {
+                    "short": "Release",
+                    "long": "Optimize for speed - exclude debug information.",
+                    "buildType": "Release"
+                },
+                "profile": {
+                    "short": "Profile",
+                    "long": "Optimize for debug and run.",
+                    "buildType": "Debug"
+                }
+            }
+        }
+    }
+}

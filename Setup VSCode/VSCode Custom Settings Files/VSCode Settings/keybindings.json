@@ -1,0 +1,23 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+    "key": "f7",
+    "command": "workbench.action.tasks.runTask",
+    "args": "CustomNinjaBuild"
+    },
+    
+    {
+    "key": "f5",
+    "command": "cmake.launchTarget"
+    },
+    
+    {
+    "key": "ctrl+f5",
+    "command": "workbench.action.debug.start"
+    },
+    
+    {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.tasks.runTask"
+    }
+]

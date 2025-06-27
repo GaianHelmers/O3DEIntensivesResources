@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CustomNinjaBuild",
+      "type": "process",
+      "command": "${workspaceFolder:< Project Folder Name >}\\z_build_project_editor_profile.bat",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder:< Project Folder Name >}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Create New Component",
+      "type": "process",
+      "command": "${workspaceFolder:< EngineSourceFolderName >}\\z_create_component.bat.bat",
+      "args": [],
+      "presentation": {
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true,
+        "reveal": "always",
+        "focus": true,
+        "close": true
+      }
+    },
+    {
+      "label": "Generate Ninja Compile Commands",
+      "type": "process",
+      "command": "${workspaceFolder:< Project Folder Name >}\\z_create_ninja_buildcommands.bat",
+      "args": [],
+      "presentation": {
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true,
+        "reveal": "always",
+        "focus": true,
+        "close": true
+      }
+    }
+  ]
+}

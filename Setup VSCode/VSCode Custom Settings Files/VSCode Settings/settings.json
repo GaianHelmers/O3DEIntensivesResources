@@ -1,0 +1,31 @@
+{
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "C_Cpp.default.compileCommands": [
+        "< Full Path to build/n_cc compilecommands.json >"
+    ],
+    "terminal.integrated.profiles.windows": {
+        "Developer Command Prompt for VS 2022": {
+        "path": "cmd.exe",
+        "args": [
+            "/k",
+            "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/Build/vcvars64.bat"
+        ]
+    }
+    },
+    "terminal.integrated.defaultProfile.windows": "Developer Command Prompt for VS 2022",
+    "cmake.configureSettings": {
+        "CMAKE_C_COMPILER": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe",
+        "CMAKE_CXX_COMPILER": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe"
+    },
+    "git.alwaysSignOff": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.automaticReconfigure": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.enablePersistentSessions": false,
+    "cmake.configureOnEdit": false,
+    "cmake.autoSelectActiveFolder": false,
+    "cmake.configureOnOpen": false
+}
