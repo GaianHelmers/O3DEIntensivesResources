@@ -5,6 +5,14 @@
 
 Multi config allows the configuration of all 3 types. The build command stating --profile means you only build that one while compiling.
 
+## Winget Commands
+
+git: `winget install --id=Git.Git  -e`
+
+git lfs: `winget install --id=GitHub.GitLFS  -e`
+
+ninja: `winget install --id=Ninja-build.Ninja  -e`
+
 ## VSCode Settings
 
 ### Prepare Files
