@@ -1,5 +1,10 @@
 # Resource Usage Instructions
 
+## Project to Ninja Configuration Command
+`cmake -G "Ninja Multi-Config" -S . -B build/windows`
+
+Multi config allows the configuration of all 3 types. The build command stating --profile means you only build that one while compiling.
+
 ## VSCode Settings
 
 ### Prepare Files
