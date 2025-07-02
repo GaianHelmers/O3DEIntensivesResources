@@ -22,10 +22,10 @@
     },
     "git.alwaysSignOff": true,
     "cmake.options.statusBarVisibility": "visible",
-    "cmake.automaticReconfigure": false,
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.enablePersistentSessions": false,
+    "cmake.automaticReconfigure": false,
     "cmake.configureOnEdit": false,
-    "cmake.autoSelectActiveFolder": false,
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cmake.autoSelectActiveFolder": false
 }
