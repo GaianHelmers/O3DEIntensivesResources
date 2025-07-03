@@ -1,0 +1,35 @@
+{
+    "version": 4,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 23,
+        "patch": 0
+    },
+    "include": [
+        "user/cmake/engine/CMakePresets.json"
+    ],
+
+    "configurePresets": [
+    {
+      "name": "ninja-profile-editor",
+      "displayName": "Ninja Profile (Editor)",
+      "description": "Configure for Ninja and profile build for Editor",
+      "generator": "Ninja Multi-Config",
+      "binaryDir": "${sourceDir}/build/windows",
+      "cacheVariables": {
+        "LY_3RDPARTY_PATH": "C:/Users/gaian/.o3de/3rdParty"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "ninja-profile-editor",
+      "configurePreset": "ninja-profile-editor",
+      "description": "Build the Editor target in profile mode",
+      "targets": [
+        "Editor"
+      ],
+      "configuration": "profile"
+    }
+  ]
+}

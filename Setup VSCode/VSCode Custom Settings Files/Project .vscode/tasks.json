@@ -1,6 +1,23 @@
 {
   "version": "2.0.0",
   "tasks": [
+    //Sets the configuration to the correct state.
+    {
+      "label": "Reconfigure Build",
+      "type": "process",
+      "command": "${workspaceFolder:gs_play}\\z_reconfigure_build.bat",
+      "args": [],
+      "presentation": {
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true,
+        "reveal": "always",
+        "focus": true,
+        "close": true
+      }
+    },
+
+    //Builds your project.
     {
       "label": "CustomNinjaBuild",
       "type": "process",
@@ -15,6 +32,8 @@
       },
       "problemMatcher": []
     },
+
+    //Creates Component using Helper
     {
       "label": "Create New Component",
       "type": "process",
@@ -29,6 +48,8 @@
         "close": true
       }
     },
+
+    //Regenerates Compile Commands
     {
       "label": "Generate Ninja Compile Commands",
       "type": "process",

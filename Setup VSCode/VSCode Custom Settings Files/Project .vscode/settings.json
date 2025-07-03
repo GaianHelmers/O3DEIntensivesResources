@@ -1,7 +1,6 @@
 {
     "cmake.buildDirectory": "${workspaceFolder:< Project Folder Name >}/build/windows",
     "cmake.parallelJobs": 16,
-    "cmake.buildBeforeRun": false,
     "cmake.exportCompileCommandsFile": false,
     "accessibility.verbosity.terminal": true,
     "terminal.integrated.cwd": "",

@@ -1,21 +1,25 @@
 // Place your key bindings in this file to override the defaults
 [
+    //Sets our custom build to F7
     {
     "key": "f7",
     "command": "workbench.action.tasks.runTask",
     "args": "CustomNinjaBuild"
     },
     
+    //Sets "Run without Debug" to F5
     {
     "key": "f5",
     "command": "cmake.launchTarget"
     },
     
+    //Sets "Debug & Run" to Ctrl+F5
     {
     "key": "ctrl+f5",
     "command": "workbench.action.debug.start"
     },
     
+    //Makes ctrl+shift+b jump to our Tasks List.
     {
     "key": "ctrl+shift+b",
     "command": "workbench.action.tasks.runTask"

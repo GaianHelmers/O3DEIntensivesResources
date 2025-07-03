@@ -55,6 +55,8 @@ Right click the .bat and select "Edit".
 ### Project Folder .bats
 Add "z_build_project_editor_profile.bat" to your Project Folder.
 
+Add "z_reconfigure_build.bat" to your Project Folder.
+
 Add "z_create_ninja_buildcommands.bat" to your Project Folder.
 
 Right click the "z_create_ninja_buildcommands.bat" and select "Edit".
