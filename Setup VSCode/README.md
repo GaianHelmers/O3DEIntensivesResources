@@ -4,7 +4,7 @@
 `cmake -G "Ninja Multi-Config" -S . -B build/windows`
 
 Multi config allows the configuration of all 3 types. The build command stating --profile means you only build that one while compiling.
-You can install and use the ["Reconfigure Build"](/O3DE VSCode bat Files/Project bats/z_reconfigure_build.bat) bat and task to be able to reset this regularly.
+You can install and use the ["Reconfigure Build"](https://github.com/GaianHelmers/O3DEIntensivesResources/blob/main/Setup%20VSCode/O3DE%20VSCode%20bat%20Files/Project%20bats/z_reconfigure_build.bat) bat and task to be able to reset this regularly.
 
 ---------
 
