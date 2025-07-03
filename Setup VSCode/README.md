@@ -4,6 +4,9 @@
 `cmake -G "Ninja Multi-Config" -S . -B build/windows`
 
 Multi config allows the configuration of all 3 types. The build command stating --profile means you only build that one while compiling.
+You can install and use the ["Reconfigure Build"](/O3DE VSCode bat Files/Project bats/z_reconfigure_build.bat) bat and task to be able to reset this regularly.
+
+---------
 
 ## Winget Commands
 
@@ -13,6 +16,8 @@ git lfs: `winget install --id=GitHub.GitLFS  -e`
 
 ninja: `winget install --id=Ninja-build.Ninja  -e`
 
+---------
+
 ## VSCode Settings
 
 ### Prepare Files
@@ -20,13 +25,14 @@ ninja: `winget install --id=Ninja-build.Ninja  -e`
 - Find and Replace `< Path to 3rd Party Gems >` with the path to your 3rd Party Gems. (ex. C:/Users/you/.o3de/3rdParty)
 - Find and Replace `< EngineSourceFolderName >` with your Workspace Engine Source Folder Name. (ex. O3DEEngine)
 
-
 #### Project Settings Files
 - In settings.json select your number of Parallel Jobs
 - In launch.json fill in `< Full Path To Project Editor.exe >` with the path to your built Editor.exe.
 
 #### VSCode Setting Files
 - In settings.json fill in `< Full Path to build/n_cc compilecommands.json >` with the path to your exported ninja_compilecommands.
+
+---------
 
 ### Add Files to VSCode
 Add the Project Settings files, setup, launch, and tasks, to your project/.vscode folder.
@@ -41,6 +47,8 @@ Copy and Paste the VSCode Settings files, settings, and keybinding, into your fi
    - Select the Gear Icon in the bottom left corner.
    - Select Keyboard Shortcuts. (Ctrl+K + Ctrl+S)
    - Select the page and arrow icon in the right side of the file tabs bar. "Open Keyboard Shortcuts (JSON)"
+
+---------
 
 ## O3DE .bat Files
 
@@ -64,6 +72,8 @@ Right click the "z_create_ninja_buildcommands.bat" and select "Edit".
 - Note: The build path will be the shortened "n_cc" build path.
 
 > Happy Coding!
+
+---------
 
 # Useful Links
 
