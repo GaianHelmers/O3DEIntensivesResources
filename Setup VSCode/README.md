@@ -6,6 +6,7 @@
 > Multi config allows the configuration of all 3 types. The build command stating --profile means you only build that one while compiling.
 
 You can install and use the ["Reconfigure Build"](https://github.com/GaianHelmers/O3DEIntensivesResources/blob/main/Setup%20VSCode/O3DE%20VSCode%20bat%20Files/Project%20bats/z_reconfigure_build.bat) bat and task to be able to reset this regularly.
+Once you've reconfigured once. Using the updated CMakePresets allows the configuration to automatically run. You can call `CMake:Configure` vscode command.
 
 ---------
 
