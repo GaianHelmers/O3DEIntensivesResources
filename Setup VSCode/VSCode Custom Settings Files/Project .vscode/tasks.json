@@ -5,7 +5,7 @@
     {
       "label": "Reconfigure Build",
       "type": "process",
-      "command": "${workspaceFolder:gs_play}\\z_reconfigure_build.bat",
+      "command": "${workspaceFolder:< Project Folder Name >}\\z_reconfigure_build.bat",
       "args": [],
       "presentation": {
         "panel": "shared",

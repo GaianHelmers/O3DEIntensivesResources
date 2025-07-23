@@ -17,7 +17,7 @@
       "generator": "Ninja Multi-Config",
       "binaryDir": "${sourceDir}/build/windows",
       "cacheVariables": {
-        "LY_3RDPARTY_PATH": "C:/Users/gaian/.o3de/3rdParty"
+        "LY_3RDPARTY_PATH": "< Third Party Folder Path >"
       }
     }
   ],

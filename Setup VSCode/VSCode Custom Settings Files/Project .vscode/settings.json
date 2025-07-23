@@ -1,5 +1,10 @@
 {
-    "cmake.buildDirectory": "${workspaceFolder:< Project Folder Name >}/build/windows",
+    "cmake.generator": "Ninja Multi-Config",
+    "cmake.sourceDirectory": "${workspaceFolder:< PROJECT FOLDER NAME >}",
+    "cmake.buildDirectory": "${workspaceFolder:< PROJECT FOLDER NAME >}/build/windows",
+    "C_Cpp.default.compileCommands": [
+        "< PATH TO YOUR DEV FOLDER >/< PROJECT FOLDER NAME >/build/n_cc/compile_commands.json"
+    ],
     "cmake.parallelJobs": 16,
     "cmake.exportCompileCommandsFile": false,
     "accessibility.verbosity.terminal": true,

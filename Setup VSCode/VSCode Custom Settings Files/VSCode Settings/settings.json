@@ -1,9 +1,4 @@
-{
-    //Setting custom compile commands
-    "C_Cpp.default.compileCommands": [
-        "< Full Path to build/n_cc compilecommands.json >"
-    ],
-    
+{   
     //Set default terminal to use Visual Studio Environment
     "terminal.integrated.defaultProfile.windows": "Developer Command Prompt for VS 2022",
     "terminal.integrated.profiles.windows": {

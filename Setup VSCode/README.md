@@ -1,5 +1,8 @@
 # Resource Usage Instructions
 
+## Pre-prepare Project
+Add the project to Project Manager if not already added.
+
 ## Project to Ninja Configuration Command
 `cmake -G "Ninja Multi-Config" -S . -B build/windows`
 
@@ -7,6 +10,8 @@
 
 You can install and use the ["Reconfigure Build"](https://github.com/GaianHelmers/O3DEIntensivesResources/blob/main/Setup%20VSCode/O3DE%20VSCode%20bat%20Files/Project%20bats/z_reconfigure_build.bat) bat and task to be able to reset this regularly.
 Once you've reconfigured once. Using the updated CMakePresets allows the configuration to automatically run. You can call `CMake:Configure` vscode command.
+
+CMAKE Tools just needs a base config to overwrite, otherwise it fails.
 
 ---------
 
@@ -50,6 +55,7 @@ Copy and Paste the VSCode Settings files, settings, and keybinding, into your fi
    - Select Keyboard Shortcuts. (Ctrl+K + Ctrl+S)
    - Select the page and arrow icon in the right side of the file tabs bar. "Open Keyboard Shortcuts (JSON)"
 
+! Exit and reload vscode completely. Extensions will not load until after.
 ---------
 
 ## O3DE .bat Files
@@ -78,6 +84,8 @@ Right click the "z_create_ninja_buildcommands.bat" and select "Edit".
 ---------
 
 # Useful Links
+
+[TROUBLESHOOTING](Troubleshooting.md)
 
 ### O3DE Source Code
 [O3DE Source Code Repo](https://github.com/o3de/o3de/)
