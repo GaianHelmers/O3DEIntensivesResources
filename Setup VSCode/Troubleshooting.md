@@ -1,6 +1,6 @@
 # Troubleshooting
 
-### VSCode Project Doesn't have CMAKE tools.
+## VSCode Project Doesn't have CMAKE tools.
 Restart vscode after you place the .vscode files.
 
 ## CMakePresets.json has error
