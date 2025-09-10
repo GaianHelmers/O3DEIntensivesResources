@@ -31,13 +31,16 @@ ninja: `winget install --id=Ninja-build.Ninja  -e`
 - Find and Replace `< Project Folder Name >` with your Workspace Project Folder Name. (ex. Intensives2025)
 - Find and Replace `< Path to 3rd Party Gems >` with the path to your 3rd Party Gems. (ex. C:/Users/you/.o3de/3rdParty)
 - Find and Replace `< EngineSourceFolderName >` with your Workspace Engine Source Folder Name. (ex. O3DEEngine)
+- Replace `< PATH TO YOUR DEV FOLDER >` with the full path from your disk drive, to the folder that owns your Project.
+   - Alternatively replace `< PATH TO YOUR DEV FOLDER >/< PROJECT FOLDER NAME >` with the path directly to your project folder.
 
 #### Project Settings Files
 - In settings.json select your number of Parallel Jobs
 - In launch.json fill in `< Full Path To Project Editor.exe >` with the path to your built Editor.exe.
 
 #### VSCode Setting Files
-- In settings.json fill in `< Full Path to build/n_cc compilecommands.json >` with the path to your exported ninja_compilecommands.
+- In settings.json Replace `< PATH TO YOUR DEV FOLDER >` with the full path from your disk drive, to the folder that owns your Project.
+   - Alternatively replace `< PATH TO YOUR DEV FOLDER >/< PROJECT FOLDER NAME >` with the path directly to your project folder.
 
 ---------
 
@@ -67,8 +70,6 @@ Right click the .bat and select "Edit".
 - Replace `<Gem Dev Folder Path>` with the direct path to your Gem Development Folder.
 - Replace `<Default Gem Folder>` with your chosen Gem Folder name.
 - Replace `<Default Gem Name>` with your Gem Name. For namespaces.
-- Replace `< PATH TO YOUR DEV FOLDER >` with the full path from your disk drive, to the folder that owns your Project.
-   - Alternatively replace `< PATH TO YOUR DEV FOLDER >/< PROJECT FOLDER NAME >` with the path directly to your project folder.
 
 ### Project Folder .bats
 Add "z_build_project_editor_profile.bat" to your Project Folder.
@@ -78,7 +79,7 @@ Add "z_reconfigure_build.bat" to your Project Folder.
 Add "z_create_ninja_buildcommands.bat" to your Project Folder.
 
 Right click the "z_create_ninja_buildcommands.bat" and select "Edit".
-- Replace `< Third Party Folder Path>` with the path to your O3DE 3rd Party Gems folder. (ex. C:/Users/you/.o3de/3rdParty).
+- Replace `< Path to 3rd Party Gems >` with the path to your O3DE 3rd Party Gems folder. (ex. C:/Users/you/.o3de/3rdParty).
 - Note: The build path will be the shortened "n_cc" build path.
 
 > Happy Coding!
