@@ -37,7 +37,7 @@
     {
       "label": "Create New Component",
       "type": "process",
-      "command": "${workspaceFolder:< EngineSourceFolderName >}\\z_create_component.bat.bat",
+      "command": "${workspaceFolder:< EngineSourceFolderName >}\\z_create_component.bat",
       "args": [],
       "presentation": {
         "panel": "shared",

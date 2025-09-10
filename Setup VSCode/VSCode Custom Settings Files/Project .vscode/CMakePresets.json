@@ -17,7 +17,7 @@
       "generator": "Ninja Multi-Config",
       "binaryDir": "${sourceDir}/build/windows",
       "cacheVariables": {
-        "LY_3RDPARTY_PATH": "< Third Party Folder Path >"
+        "LY_3RDPARTY_PATH": "< Path to 3rd Party Gems >"
       }
     }
   ],
