@@ -68,7 +68,7 @@ Right click the .bat and select "Edit".
 - Replace `<Default Gem Folder>` with your chosen Gem Folder name.
 - Replace `<Default Gem Name>` with your Gem Name. For namespaces.
 - Replace `< PATH TO YOUR DEV FOLDER >` with the full path from your disk drive, to the folder that owns your Project.
-  - Alternatively replace `< PATH TO YOUR DEV FOLDER >/< PROJECT FOLDER NAME >` with the path directly to your project folder.
+   - Alternatively replace `< PATH TO YOUR DEV FOLDER >/< PROJECT FOLDER NAME >` with the path directly to your project folder.
 
 ### Project Folder .bats
 Add "z_build_project_editor_profile.bat" to your Project Folder.
