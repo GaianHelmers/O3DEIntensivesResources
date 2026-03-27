@@ -33,17 +33,20 @@
       "problemMatcher": []
     },
 
-    //Creates Component using Helper
+    //Launches the editor
     {
-      "label": "Create New Component",
+      "label": "Launch Editor",
       "type": "process",
-      "command": "${workspaceFolder:< EngineSourceFolderName >}\\z_create_component.bat",
-      "args": [],
+      "command": "${workspaceFolder:< Project Folder Name >}/bin/Windows/profile/Default/Editor.exe",
+      "args": [
+        "--project-path",
+        "${workspaceFolder:< Project Folder Name >}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder:< Project Folder Name >}"
+      },
+      "problemMatcher": [],
       "presentation": {
-        "panel": "shared",
-        "showReuseMessage": false,
-        "clear": true,
-        "reveal": "always",
         "focus": true,
         "close": true
       }

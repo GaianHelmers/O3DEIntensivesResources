@@ -19,6 +19,22 @@ if not errorlevel 1 (
     echo.
 )
 
+
+REM === Check if Script Canvas is running ===
+set "processName=ScriptCanvasApplication.exe"
+
+tasklist | findstr /I "ScriptCanvasApplication" >nul
+if not errorlevel 1 (
+    echo.
+    echo WARNING: %processName% is currently running.
+    echo Please save your work. By continuing it will be closed.
+    pause
+    echo Closing %processName%...
+    taskkill /F /IM ScriptCanvasApplication.exe
+    echo %processName% has been closed.
+    echo.
+)
+
 echo === Building Project ===
 cmake --build build/windows --target Editor --config profile
 pause

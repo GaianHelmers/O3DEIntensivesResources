@@ -9,9 +9,10 @@
     
     //Sets "Run without Debug" to F5
     {
-    "key": "f5",
-    "command": "cmake.launchTarget"
-    },
+        "key": "f5",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Launch Editor"
+    }
     
     //Sets "Debug & Run" to Ctrl+F5
     {

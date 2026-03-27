@@ -111,6 +111,21 @@
             "cwd": "${workspaceFolder:< Project Folder Name >}",
             "environment": [],
             "visualizerFile": "${workspaceFolder:< Project Folder Name >}/Code/Framework/AzCore/Platform/Common/VisualStudio/AzCore/Natvis/azcore.natvis"
+        },
+        {
+            "name": "ClassWizard",
+            "type": "debugpy",
+            "request": "launch",
+            "justMyCode": true,
+            "python": "${command:python.interpreterPath}",
+            "program": "${workspaceFolder:< EngineSourceFolderName >}/Tools/ClassCreationWizard/ClassWizard.py",
+            "cwd": "${command:cmake.buildDirectory}",
+            "args": [
+                "--engine-path",
+                "${workspaceFolder:< EngineSourceFolderName >}",
+                "--project-path",
+                "${workspaceFolder:< Project Folder Name >}"
+            ]
         }
     ]
 }
