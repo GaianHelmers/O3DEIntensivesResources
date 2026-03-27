@@ -5,7 +5,7 @@
     {
       "label": "Reconfigure Build",
       "type": "process",
-      "command": "${workspaceFolder:< Project Folder Name >}\\z_reconfigure_build.bat",
+      "command": "${workspaceFolder:< Project Folder Name >}/z_reconfigure_build.bat",
       "args": [],
       "presentation": {
         "panel": "shared",
@@ -21,7 +21,7 @@
     {
       "label": "CustomNinjaBuild",
       "type": "process",
-      "command": "${workspaceFolder:< Project Folder Name >}\\z_build_project_editor_profile.bat",
+      "command": "${workspaceFolder:< Project Folder Name >}/z_build_project_editor_profile.bat",
       "args": [],
       "options": {
         "cwd": "${workspaceFolder:< Project Folder Name >}"
@@ -64,7 +64,7 @@
     {
       "label": "Generate Ninja Compile Commands",
       "type": "process",
-      "command": "${workspaceFolder:< Project Folder Name >}\\z_create_ninja_buildcommands.bat",
+      "command": "${workspaceFolder:< Project Folder Name >}/z_create_ninja_buildcommands.bat",
       "args": [],
       "presentation": {
         "panel": "shared",
