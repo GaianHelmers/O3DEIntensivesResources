@@ -30,7 +30,13 @@
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": []
+      "problemMatcher": [],
+      "presentation": {
+        "clear": true,
+        "reveal": "always",
+        "focus": true,
+        "close": true
+      }
     },
 
     //Launches the editor
@@ -47,6 +53,8 @@
       },
       "problemMatcher": [],
       "presentation": {
+        "clear": true,
+        "reveal": "always",
         "focus": true,
         "close": true
       }
