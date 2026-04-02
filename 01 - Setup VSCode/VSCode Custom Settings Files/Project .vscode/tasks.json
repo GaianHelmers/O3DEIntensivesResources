@@ -14,6 +14,10 @@
         "reveal": "always",
         "focus": true,
         "close": true
+      },
+      "runOptions": {
+        "instanceLimit": 1,
+        "instancePolicy": "terminateOldest"
       }
     },
 
@@ -36,6 +40,10 @@
         "reveal": "always",
         "focus": true,
         "close": true
+      },
+      "runOptions": {
+        "instanceLimit": 1,
+        "instancePolicy": "terminateOldest"
       }
     },
 
@@ -77,6 +85,10 @@
         "reveal": "always",
         "focus": true,
         "close": true
+      },
+      "runOptions": {
+        "instanceLimit": 1,
+        "instancePolicy": "terminateOldest"
       }
     }
   ]
